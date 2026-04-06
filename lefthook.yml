@@ -50,3 +50,4 @@ pre-commit:
     - name: oxfmt
       run: pnpm oxfmt {staged_files}
       glob: "*.{ts,tsx,js,jsx}"
+      stage_modified: true
